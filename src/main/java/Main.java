@@ -1,5 +1,3 @@
-package be;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("hello world!");
@@ -9,6 +7,8 @@ public class Main {
 
         SnackBeheer.addSnack(boulet);
         SnackBeheer.addSnack(frikandel);
-        System.out.println("SnackBeheer");
+
+        System.out.println(SnackBeheer.getSnackArrayList().toString());
+
     }
 }

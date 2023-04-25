@@ -1,5 +1,3 @@
-package be;
-
 import java.util.ArrayList;
 
 public class SnackBeheer {
@@ -16,5 +14,10 @@ public class SnackBeheer {
     public static void removeSnack(Snack newSnack){
         snackArrayList.remove(newSnack);
 
+    }
+
+    @Override
+    public String toString() {
+        return "SnackBeheer{}";
     }
 }

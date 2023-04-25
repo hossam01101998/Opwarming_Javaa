@@ -1,5 +1,3 @@
-package be;
-
 public class Snack {
     private int artikelcode;
     private String naam;
@@ -33,6 +31,15 @@ public class Snack {
 
     public void setPrijs(double prijs) {
         this.prijs = prijs;
+    }
+
+    @Override
+    public String toString() {
+        return "Snack{" +
+                "artikelcode=" + artikelcode +
+                ", naam='" + naam + '\'' +
+                ", prijs=" + prijs +
+                '}';
     }
 }
 
